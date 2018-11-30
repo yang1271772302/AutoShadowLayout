@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:bobby="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+            <com.bobby.autolayout.AutoShadowLayout
+                android:id="@+id/auto1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                bobby:shadow_press="true">
+
+                <TextView
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="手动档默认蒙层"
+                    android:gravity="center"
+                    android:background="#0fff"/>
+
+            </com.bobby.autolayout.AutoShadowLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+
+            <com.bobby.autolayout.AutoShadowLayout
+                android:id="@+id/auto2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                bobby:shadow_press="false"
+                bobby:shadow_press_color="#8000ff00">
+
+                <TextView
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="手动档自定义蒙层"
+                    android:gravity="center"
+                    android:background="#0fff"/>
+
+            </com.bobby.autolayout.AutoShadowLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+
+            <com.bobby.autolayout.AutoShadowLayout
+                android:id="@+id/auto3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                bobby:shadow_press_color="#800000ff"
+                bobby:shadow_auto="true">
+
+                <TextView
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="自动挡"
+                    android:gravity="center"
+                    android:background="#0fff"/>
+
+            </com.bobby.autolayout.AutoShadowLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+
+            <com.bobby.autolayout.AutoShadowLayout
+                android:id="@+id/auto4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                bobby:shadow_press_color="#800000ff"
+                bobby:shadow_auto="true"
+                bobby:shadow_can_click="true">
+
+                <TextView
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="自动挡带点击"
+                    android:gravity="center"
+                    android:background="#0fff"/>
+
+            </com.bobby.autolayout.AutoShadowLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Hello World!"
+                android:gravity="center"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

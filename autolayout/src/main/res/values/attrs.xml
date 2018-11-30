@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AutoShadowLayout">
+        <attr name="shadow_press_color" format="color"/>
+        <attr name="shadow_press" format="boolean"/>
+        <attr name="shadow_auto" format="boolean"/>
+        <attr name="shadow_can_click" format="boolean"></attr>
+    </declare-styleable>
+
+</resources>
